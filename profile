@@ -15,8 +15,6 @@ alias d="date --rfc-3339=seconds"
 
 alias genpwd="openssl rand -base64 20"
 
-# SSH
-alias prom='ssh peterbraden@prometheus'
 
 function psgrep() {
 EXP=`echo $1 | sed -e 's/^\(.\)/\[\1\]/'`
